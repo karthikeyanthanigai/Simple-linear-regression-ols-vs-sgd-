@@ -1,5 +1,5 @@
 # Simple-linear-regression-ols-vs-sgd
-In this repository we will see the basic different the ols(Ordinary Least Squares) method sdg(Stochastic Gradient Descent) method for a simple linear regression.
+In this repository we will see the basic different in ols(Ordinary Least Squares) method sdg(Stochastic Gradient Descent) method for a simple linear regression.
 Generally in simple linear regression only one indepent variable(x) will Determine the dependent variable(y) in which we have 2 methods to predict/make the best fit line to the regression that is ***Ordinary Least Squares*** and the other one is ***Stochastic Gradient Descent***.
 with this method's we will draw a good/best fit line to the dataset and find out which method is the best.
 
