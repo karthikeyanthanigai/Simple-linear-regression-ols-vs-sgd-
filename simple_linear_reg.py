@@ -37,9 +37,8 @@ regressor2.fit(X_train, y_train)
 y_pred2= regressor2.predict(X_test)
 
 
-
-
 # Visualising the Training set results with both the methods
+#blue line is ols and pink line is sgd
 plt.scatter(X_train, y_train, color = 'red')
 plt.plot(X_train, regressor1.predict(X_train), color = 'blue')
 plt.plot(X_train, regressor2.predict(X_train), color = 'pink')
@@ -49,6 +48,7 @@ plt.ylabel('Salary')
 plt.show()
 
 # Visualising the Test set results with both the methods
+#blue line is ols and pink line is sgd
 plt.scatter(X_test, y_test, color = 'red')
 plt.plot(X_train, regressor1.predict(X_train), color = 'blue')
 plt.plot(X_train, regressor2.predict(X_train), color = 'pink')
@@ -64,4 +64,6 @@ r_squared1 = r2_score(y_test, y_pred1)
 
 #r2 for SGD model
 r_squared2 = r2_score(y_test, y_pred2)
+#print(r_squared1,r_squared2)
+
 
